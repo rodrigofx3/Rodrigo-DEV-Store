@@ -162,9 +162,6 @@ function carregarDetalhesProduto(id) {
   const imageContainer = document.getElementById("product-main-image");
   if (imageContainer) {
     imageContainer.innerHTML = `
-      <img src="${produto.imagem}" alt="${produto.nome}" 
-           class="product-detail-image" 
-           onerror="this.style.display='none'; this.parentNode.innerHTML='${produto.emoji}';">
       ${produto.emoji}
     `;
   }
@@ -224,8 +221,6 @@ function carregarProdutosRelacionados(categoria, currentId) {
         (produto) => `
       <div class="product-card card">
         <div class="product-image image-placeholder">
-          <img src="${produto.imagem}" alt="${produto.nome}" 
-               onerror="this.style.display='none'; this.parentNode.innerHTML='${produto.emoji}';">
           ${produto.emoji}
         </div>
         <div class="product-info">
