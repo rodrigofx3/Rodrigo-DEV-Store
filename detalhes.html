@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Detalhes do Produto - Rodrigo DEV Store</title>
+    <meta name="description" content="Detalhes completos do produto selecionado na Rodrigo DEV Store">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo">💻 Rodrigo <span>DEV</span> Store</h1>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+                    ☰
+                </button>
+                
+                <nav>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="carrinho.html">🛒 Carrinho</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Detalhes Produto -->
+    <main>
+        <section class="product-details section product-details-section">
+            <div class="container">
+                <article id="product-content" class="product-content grid-two-columns">
+                    
+                    <figure class="product-figure">
+                        <div id="product-main-image" class="product-main-image image-placeholder">
+                            
+                        </div>
+                        <figcaption class="product-image-caption">
+                            Imagem ilustrativa do produto
+                        </figcaption>
+                    </figure>
+
+                    <!-- Informação do Produto -->
+                    <div class="product-details-info">
+                        <div class="product-header">
+                            <h1 id="product-name" class="product-name">
+                                <!-- Nome será carregado via JS -->
+                            </h1>
+                            <p id="product-description" class="product-description">
+                                <!-- Descrição será carregada via JS -->
+                            </p>
+                        </div>
+
+                        <div class="price-section">
+                            <span id="product-price" class="product-price">
+                                <!-- Preço será carregado via JS -->
+                            </span>
+                        </div>
+
+                        <div class="product-actions">
+                            <button id="add-to-cart-btn" class="btn btn-primary add-to-cart-btn">
+                                🛒 Adicionar ao Carrinho
+                            </button>
+                            <a href="produtos.html" class="btn btn-secondary back-btn">
+                                ← Voltar aos Produtos
+                            </a>
+                        </div>
+
+                        <!-- Especificações do Produto -->
+                        <section class="specifications">
+                            <h2 class="specifications-title">Especificações Técnicas</h2>
+                            <dl id="product-specs" class="specifications-list">
+                                <!-- Especificações serão carregadas via JS -->
+                            </dl>
+                        </section>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Produtos Relacionados -->
+    <section class="related-products section related-products-section section-light">
+        <div class="container">
+            <h2 class="section-title-small related-products-title">Produtos Relacionados</h2>
+            <div id="related-products-grid" class="grid-auto-fit-small">
+                <!-- Produtos relacionados serão carregados via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 class="footer-title">Rodrigo DEV Store</h3>
+            <p>📧 contato@rodrigodevstore.com | 📞 (44) 99999-9999</p>
+            <p class="footer-copyright">&copy; 2025 Rodrigo Faria Ramos - MAPA da disciplina de Programação Front End da Unicesumar</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

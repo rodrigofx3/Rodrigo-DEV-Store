@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos - Rodrigo DEV Store</title>
+    <meta name="description" content="Catálogo completo de produtos para desenvolvedores - notebooks, smartphones, periféricos e acessórios.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="logo">💻 Rodrigo <span>DEV</span> Store</h1>
+          
+          <!-- Mobile Menu Toggle -->
+          <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+            ☰
+          </button>
+          
+          <nav>
+            <ul class="nav-menu" id="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="carrinho.html">🛒 Carrinho</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Catálogo de Produtos</h1>
+            <p>Todos os equipamentos que você precisa para programar com eficiência</p>
+        </div>
+    </section>
+
+    <!-- Sessão Produtos -->
+    <section class="section products-section">
+        <div class="container">
+            <div class="grid-auto-fit">
+                
+                <!-- Produto 1: Notebook DEV Pro -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                       💻
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Notebook DEV Pro</h3>
+                        <p class="product-desc">Notebook de alta performance para desenvolvimento, Intel i7, 16GB RAM, SSD 512GB e tela Full HD.</p>
+                        <div class="product-price">R$ 4.999,00</div>
+                        <a href="detalhes.html?id=notebook-dev-pro" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Produto 2: Smartphone DEV Plus -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                        📱
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Smartphone DEV Plus</h3>
+                        <p class="product-desc">Smartphone Android premium para testes de apps, 8GB RAM, 256GB storage e tela AMOLED.</p>
+                        <div class="product-price">R$ 2.299,00</div>
+                        <a href="detalhes.html?id=smartphone-dev-plus" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Produto 3: Teclado Mecânico Code -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                        ⌨️
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Teclado Mecânico Code</h3>
+                        <p class="product-desc">Teclado mecânico RGB com switches Cherry MX Blue, layout ABNT2 e iluminação personalizável.</p>
+                        <div class="product-price">R$ 459,00</div>
+                        <a href="detalhes.html?id=teclado-mecanico-code" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Produto 4: Mouse Precision DEV -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                        🖱️
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mouse Precision DEV</h3>
+                        <p class="product-desc">Mouse ergonômico de alta precisão, 12000 DPI, 7 botões programáveis e design confortável.</p>
+                        <div class="product-price">R$ 189,00</div>
+                        <a href="detalhes.html?id=mouse-precision-dev" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Produto 5: Monitor UltraWide CODE -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                        🖥️
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Monitor UltraWide CODE</h3>
+                        <p class="product-desc">Monitor 34" UltraWide 3440x1440, ideal para múltiplas janelas de código, USB-C e HDR.</p>
+                        <div class="product-price">R$ 2.799,00</div>
+                        <a href="detalhes.html?id=monitor-ultrawide-code" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Produto 6: Headset DEV Audio -->
+                <div class="product-card card">
+                    <div class="product-image image-placeholder">
+                        🎧
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Headset DEV Audio</h3>
+                        <p class="product-desc">Headset premium com cancelamento de ruído ativo, microfone destacável e conforto para longas horas.</p>
+                        <div class="product-price">R$ 899,00</div>
+                        <a href="detalhes.html?id=headset-dev-audio" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 1rem;">Rodrigo DEV Store</h3>
+            <p>contato@rodrigodevstore.com |     (44) 99999-9999</p>
+            <p style="margin-top: 1rem; opacity: 0.8;">&copy; 2025 Rodrigo Faria Ramos - MAPA da disciplina de Programação Front End da Unicesumar</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

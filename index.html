@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Rodrigo DEV Store - Sua Loja de Tecnologia para Desenvolvedores
+    </title>
+    <meta
+      name="description"
+      content="A melhor loja online para desenvolvedores! Notebooks, celulares, teclados e mouses com qualidade e preços especiais."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="logo">💻 Rodrigo <span>DEV</span> Store</h1>
+
+          <!-- Mobile Menu Toggle -->
+          <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+            ☰
+          </button>
+
+          <nav>
+            <ul class="nav-menu" id="nav-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="carrinho.html">🛒 Carrinho</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sessão Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <h2>Bem-vindo à Rodrigo DEV Store</h2>
+        <p>
+          A loja especializada em equipamentos para desenvolvedores e
+          programadores
+        </p>
+      </div>
+    </section>
+
+    <!-- Sessão Produtos -->
+    <section class="section products" id="produtos">
+      <div class="container">
+        <h2 class="section-title">Produtos em Destaque</h2>
+
+        <div class="grid-auto-fit">
+          <!-- Produto 1: Notebook DEV Pro -->
+          <div class="product-card card">
+            <div class="product-image image-placeholder">💻</div>
+            <div class="product-info">
+              <h3 class="product-title">Notebook DEV Pro</h3>
+              <p class="product-desc">
+                Notebook de alta performance para desenvolvimento, com
+                processador Intel i7, 16GB RAM, SSD 512GB e tela Full HD ideal
+                para programação.
+              </p>
+              <div class="product-price">R$ 4.999,00</div>
+              <a href="detalhes.html?id=notebook-dev-pro" class="btn btn-primary"
+                >Ver Detalhes</a
+              >
+            </div>
+          </div>
+
+          <!-- Produto 2: Teclado Mecânico Code -->
+          <div class="product-card card">
+            <div class="product-image image-placeholder">⌨️</div>
+            <div class="product-info">
+              <h3 class="product-title">Teclado Mecânico Code</h3>
+              <p class="product-desc">
+                Teclado mecânico RGB ideal para programação, com switches Cherry
+                MX Blue, layout ABNT2 e iluminação personalizável para longas
+                sessões de código.
+              </p>
+              <div class="product-price">R$ 459,00</div>
+              <a href="detalhes.html?id=teclado-mecanico-code" class="btn btn-primary"
+                >Ver Detalhes</a
+              >
+            </div>
+          </div>
+
+          <!-- Produto 3: Monitor UltraWide CODE -->
+          <div class="product-card card">
+            <div class="product-image image-placeholder">🖥️</div>
+            <div class="product-info">
+              <h3 class="product-title">Monitor UltraWide CODE</h3>
+              <p class="product-desc">
+                Monitor 34" UltraWide 3440x1440, ideal para múltiplas janelas de
+                código, com conexão USB-C e tecnologia HDR para máxima
+                produtividade.
+              </p>
+              <div class="product-price">R$ 2.799,00</div>
+              <a href="detalhes.html?id=monitor-ultrawide-code" class="btn btn-primary"
+                >Ver Detalhes</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Link para ver todos os produtos -->
+        <div class="products-actions">
+          <a href="produtos.html" class="btn btn-primary btn-large">
+            Ver Todos os Produtos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sessão Sobre -->
+    <section id="sobre" class="section about-section section-light">
+      <div class="container">
+        <h2 class="section-title">Sobre a Rodrigo DEV Store</h2>
+        <div class="about-content">
+          <p class="about-description">
+            A Rodrigo DEV Store é uma loja especializada em equipamentos de
+            tecnologia voltados para desenvolvedores, programadores e
+            profissionais de TI. Selecionamos cuidadosamente cada produto
+            pensando nas necessidades específicas de quem vive da programação.
+          </p>
+          <div class="features-grid grid-auto-fit">
+            <div>
+              <h4 class="feature-title">✅ Qualidade Garantida</h4>
+              <p class="feature-description">
+                Produtos testados e aprovados por desenvolvedores
+              </p>
+            </div>
+            <div>
+              <h4 class="feature-title">🚚 Entrega Rápida</h4>
+              <p class="feature-description">Frete grátis para todo Brasil</p>
+            </div>
+            <div>
+              <h4 class="feature-title">💳 Pagamento Flexível</h4>
+              <p class="feature-description">
+                PIX, cartão ou boleto em até 12x
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h3 style="margin-bottom: 1rem">Rodrigo DEV Store</h3>
+        <p>contato@rodrigodevstore.com | (44) 99999-9999</p>
+        <p style="margin-top: 1rem; opacity: 0.8">
+          &copy; 2025 Rodrigo Faria Ramos - MAPA da disciplina de Programação
+          Front End da Unicesumar
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

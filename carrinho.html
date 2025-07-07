@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Rodrigo DEV Store</title>
+    <meta name="description" content="Carrinho de compras da Rodrigo DEV Store - Finalize sua compra de equipamentos para desenvolvedores.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo">💻 Rodrigo <span>DEV</span> Store</h1>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+                    ☰
+                </button>
+                
+                <nav>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="carrinho.html" class="cart-active-link">🛒 Carrinho</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>🛒 Seu Carrinho</h1>
+            <p>Revise seus produtos e finalize sua compra</p>
+        </div>
+    </section>
+
+    <!-- Sessão Carrinho -->
+    <section class="section products-section">
+        <div class="container">
+            <!-- Carrinho Vazio -->
+            <div id="carrinho-vazio" class="cart-empty card-subtle">
+                <div class="cart-empty-icon">🛒</div>
+                <h3 class="cart-empty-title">Carrinho Vazio</h3>
+                <p class="cart-empty-text">Você ainda não adicionou produtos ao seu carrinho</p>
+                <a href="produtos.html" class="btn btn-primary cart-empty-btn">
+                    Ver Produtos
+                </a>
+            </div>
+
+            <!-- Produtos Recomendados -->
+            <div class="recommended-section">
+                <h3 class="section-title-small cart-recommendations-title">Você também pode gostar</h3>
+                <div class="grid-auto-fit-small">
+                    
+                    <div class="product-card cart-recommendation-card card">
+                        <div class="product-image cart-recommendation-image image-placeholder">
+                            ⌨️
+                        </div>
+                        <div class="product-info">
+                            <h4 class="cart-recommendation-title">Teclado Mecânico Code</h4>
+                            <p class="cart-recommendation-desc">Teclado RGB para programação</p>
+                            <div class="cart-recommendation-price">R$ 459,00</div>
+                            <a href="produtos.html" class="btn btn-small">Ver Produto</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card cart-recommendation-card card">
+                        <div class="product-image cart-recommendation-image image-placeholder">
+                           🖱️
+                        </div>
+                        <div class="product-info">
+                            <h4 class="cart-recommendation-title">Mouse Precision DEV</h4>
+                            <p class="cart-recommendation-desc">Mouse ergonômico de precisão</p>
+                            <div class="cart-recommendation-price">R$ 189,00</div>
+                            <a href="produtos.html" class="btn btn-small">Ver Produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3 class="footer-title">Rodrigo DEV Store</h3>
+            <p>📧 contato@rodrigodevstore.com | 📞 (44) 99999-9999</p>
+            <p class="footer-copyright">&copy; 2025 Rodrigo Faria Ramos - MAPA da disciplina de Programação Front End da Unicesumar</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
